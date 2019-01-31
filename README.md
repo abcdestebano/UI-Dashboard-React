@@ -1,6 +1,6 @@
 # UI Dashboard React
 
-App created with React.js showing UI of a Dashboard.
+App created with React.js and Bootstrap showing UI of a Dashboard.
 
 [Live demo] (https://dashboard-zwmergeulh.now.sh/)
 
