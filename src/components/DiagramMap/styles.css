@@ -1,0 +1,35 @@
+.DiagramMapContainer {
+   height: 110px;
+}
+
+.btn {
+   font-weight: bold;
+   font-size: 0.8em;
+}
+
+.button-active {
+   background-color: white;
+}
+
+.button-inactive {
+   background-color: #f8fbff;
+   color: #a1a1a1;
+}
+
+button:focus {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+.DiagramImage {
+   width: 90%;
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   align-self: center;
+}
+
+.text-center strong {
+   font-size: 0.8em;
+}

@@ -1,0 +1,97 @@
+.navbar {
+   padding: 15px 50px 10px 50px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   padding-right: 50px;
+   background-color: white;
+}
+
+.nav-link {
+   color: #414141 !important;
+   font-size: 0.9em;
+   cursor: pointer;
+}
+
+.nav-link:hover {
+   color: #414141 !important;
+}
+
+.link-billing:hover {
+   color: #00b1dd !important;
+}
+
+.dropdown {
+   display: flex;
+   align-items: center;
+}
+
+.dropdown-menu {
+   left: -150%;
+}
+
+.nav-link .fas {
+   font-size: 1.5em;
+   margin-right: 5px;
+}
+
+.nav-link .far {
+   font-size: 1.5em;
+   margin-right: 5px;
+}
+
+#navbarDropdown {
+   display: flex;
+   align-items: center;
+}
+
+.box-javascript {
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   padding: 7px 10px;
+   border-radius: 50%;
+   margin: 0 10px;
+   color: #848484;
+   font-weight: 500;
+}
+
+.bell {
+   position: relative;
+}
+
+.color-gray {
+   color: #999999;
+}
+
+.notification {
+   background-color: #ce0000;
+   border-radius: 50%;
+   color: white;
+   font-weight: bold;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   top: 18%;
+   right: 25%;
+   width: 13px;
+   height: 13px;
+   font-size: 0.5em;
+   border: 1px solid white;
+}
+
+.mr-auto .nav-link {
+   padding-right: 1em !important;
+}
+
+@media (max-width: 992px) {
+   .HeaderItems {
+      flex-direction: row;
+   }
+   .HeaderItems .nav-link {
+      margin-right: 10px;
+   }
+   .HeaderLogo {
+      display: none;
+   }
+   .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: absolute;
+   }
+}

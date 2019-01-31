@@ -1,0 +1,15 @@
+.check strong {
+   color: #00d066 !important
+}
+
+.check .fas {
+   color: #00d066 !important;
+   margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+   .border-right {
+      border-right: none !important;
+      border-bottom: 1px solid #dee2e6 !important;
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "numberInvoice": "S03834754",
+   "date": "7/31/18",
+   "dueDate": "7/31/18",
+   "terms": "Net 0",
+   "billTo": "Test",
+   "balance": "452.45",
+   "status": "Active",
+   "method": "Multimodal",
+   "capacity": "LCL",
+   "drayage": "Pickup, Delivery",
+   "incoterms": "FOB",
+   "serviceOptions": "Deconsolidation, Customs Clearance",
+   "hazarous": "Lithium Batterles, Hazmat, Other"
+}
